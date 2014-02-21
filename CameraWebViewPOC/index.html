@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+    <title>CCT</title>
+    <script type="text/javascript">
+        function getPhoto()
+        {
+            
+            window.external.notify("phone");
+        }
+
+        function getImage()
+        {
+            window.alert("Hi Clark!");
+            ourimage.src = "pic.jpg";
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="getPhoto()" value="Get Photo" />
+    <img id="ourimage" src="" style="width:100%" />
+</body>
+</html>
